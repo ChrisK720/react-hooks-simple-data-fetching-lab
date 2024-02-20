@@ -34,7 +34,7 @@ function App(){
 
 
        {image ? null : <p>Loading</p>}
-       <img alt='A Random Dog' src={image}/>
+       <img alt='A Random Dog' src={image ? image : null}/>
 
 
        </div>
